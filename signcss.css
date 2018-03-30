@@ -1,0 +1,83 @@
+.signup-form {
+            height: 100%;
+            width: 50%;
+            margin-top: 0%;
+            bottom: 10px;
+            background-color: lightgrey;
+            padding: 10px;	
+            box-shadow: -15px 0px 20px 0 grey;
+            font-family: calibri;
+            float: left;
+    }
+    
+    .sign-text{
+        font-family: calibri;
+        font-weight: bold;
+        font-size: 40px;
+        color: #38540d; 
+        text-shadow: 2px 2px 5px red;
+        align-self: center
+    }
+    
+    .sign-font{
+        font-family: Calibri;
+        color: #38540d;
+        size: 5px;
+    }
+    .signup-form input[type="text"]{
+        float: right;
+        width: 100%;
+        height: 30px;
+        background-color:#ffffff;
+        border:1px solid thistle;
+    }
+    .signup-form input[type="password"]{
+        width: 100%;
+        height: 30px;
+        float: right;
+        border:1px solid thistle;
+    }
+    .signup-form input[type="text"]:hover, .signup-form input[type="password"]:hover{
+
+        background-color: #ffffff;
+        border:1px solid blue;
+    }
+    .signup-form input[type="radio"]{
+        border:1px solid pink;
+    }
+    .sign-table{ 
+        margin: 0;
+        padding:0;
+        background-color: #f8f8f8;
+    }
+	
+    .input-group{
+        margin-bottom: 30px;
+    }
+    input[type="text"]:focus, input[type="password"]:focus{
+        border: 1px solid coral;
+    }
+    .last-name:focused{
+        border: 1px solid coral;
+    }
+	.content{
+        width:70%;
+        float: right;
+        height: 70%;
+		margin:"auto";
+		margin-top:40px;
+        padding-bottom: auto;
+        -webkit-animation: animatezoom 2s;
+        animation: animatezoom 2s;
+    }
+	
+    .btn{
+        cursor: pointer;
+        width: 80%;
+        height: 30px;
+        border:0px;
+		border-radius:10px;
+        background-color: royalblue;
+    }
+	.terms{
+		text-align: center;
